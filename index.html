@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PawPal Mart – Your Pet's Happy Place</title>
+  <title>Animal Mart – Your Pet's Happy Place</title>
   <link
     href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Poppins:wght@300;400;500;600&display=swap"
     rel="stylesheet">
@@ -939,7 +939,7 @@
 
   <!-- ── NAV ── -->
   <nav>
-    <a href="#" class="nav-logo"><span>PawPal Mart</span></a>
+    <a href="#" class="nav-logo"><span>Animal Mart</span></a>
     <ul class="nav-links">
       <li><a href="#products">Shop</a></li>
       <li><a href="#features">Why Us</a></li>
@@ -959,7 +959,7 @@
       <div class="hero-content">
         <div class="hero-badge">#1 Pet Store in Town</div>
         <h1>Everything Your Pet <em>Deserves</em> — Delivered With Love</h1>
-        <p>From yummy meals to exciting toys and trusted medicines — PawPal Mart is your one-stop shop for happy,
+        <p>From yummy meals to exciting toys and trusted medicines — Animal Mart is your one-stop shop for happy,
           healthy pets.</p>
         <div class="hero-btns">
           <a href="#products" class="btn-primary">Shop Now</a>
@@ -1062,7 +1062,7 @@
       <div class="testimonial-card">
         <div class="testimonial-stars">★★★★★</div>
         <div class="testimonial-text">"Finally a pet store that stocks proper vet-approved medicines. My cat had a skin
-          condition and PawPal had exactly what the vet prescribed. Fast delivery too!"</div>
+          condition and Animal Mart had exactly what the vet prescribed. Fast delivery too!"</div>
         <div class="testimonial-author">Ahmed Raza</div>
         <div class="testimonial-pet">Dad of Whiskers</div>
       </div>
@@ -1090,7 +1090,7 @@
   <footer id="contact">
     <div class="footer-inner">
       <div class="footer-brand">
-        <div style="font-family:'Nunito',sans-serif;font-weight:900;font-size:1.4rem;color:#fff;">PawPal Mart</div>
+        <div style="font-family:'Nunito',sans-serif;font-weight:900;font-size:1.4rem;color:#fff;">Animal Mart</div>
         <p>Your neighbourhood pet store, now online! We're dedicated to making your pets' lives happier, healthier, and
           more colourful.</p>
       </div>
@@ -1122,7 +1122,7 @@
         </ul>
       </div>
     </div>
-    <div class="footer-bottom">© 2026 PawPal Mart — Made with love for pet lovers everywhere</div>
+    <div class="footer-bottom">© 2026 Animal Mart — Made with love for pet lovers everywhere</div>
   </footer>
 
   <!-- ── CART SIDEBAR ── -->
@@ -1160,7 +1160,7 @@
 
   <script>
     // ── PRODUCTS DATA ──
-    const WHATSAPP_NUMBER = '923144134449'; // ← replace with real number
+    const WHATSAPP_NUMBER = '923001234567'; // ← replace with real number
 
     const products = [
       {
@@ -1338,7 +1338,7 @@
     function orderViaWhatsApp() {
       if (cart.length === 0) return;
       const total = cart.reduce((s, i) => s + i.price * i.qty, 0);
-      let msg = `*PawPal Mart Order*\n\nHello! I'd like to place an order:\n\n`;
+      let msg = `*Animal Mart Order*\n\nHello! I'd like to place an order:\n\n`;
       cart.forEach(i => {
         msg += `• ${i.name}\n  Qty: ${i.qty} × Rs.${i.price.toLocaleString()} = Rs.${(i.price * i.qty).toLocaleString()}\n\n`;
       });
